@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>mcspa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://mcapi.us/scripts/minecraft.js"></script>
+    <script>
+      MinecraftAPI.getServerStatus('mc.hypixel.net' /* Replace with your server IP */, {
+        port: 25565 // optional, only if you need a custom port
+      }, function (err, status) {
+        if (err) {
+          return document.querySelector('.server-status').innerHTML = 'Error loading status';
+        }
+
+        document.querySelector('.onlineQuery').innerHTML = status.online ? 'Server is currently online! Is that a good thing?' : 'Server is currently offline. Should be up soon!';
+        document.querySelector('.motd').innerHTML = status.motd;
+        document.querySelector('.count').innerHTML = status.players.now;
+        document.querySelector('.max').innerHTML = status.players.max;
+        document.querySelector('.last-online').innerHTML = status.last_online;
+      });
+  </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

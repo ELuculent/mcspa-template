@@ -1,0 +1,184 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.cHead {
+    text-align: center;
+}
+
+.jtext {
+    margin-left: 20px;
+    color: white;
+}
+
+.jHeading {
+    margin-left: 20px;
+    color: white;
+}
+
+.user {
+    margin-right: 60px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.carousel {
+    margin-left: -11px;
+    height: 900px;
+    width: 101.6%;
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.bg-img {
+    position: absolute;
+    left: 0%;
+    margin-left: 0px;
+    height: 720px;
+    width: 1280px;
+}
+
+.cls-1 {
+    font-size: 30px;
+    font-family: CloisterBlack-Light, Cloister Black;
+}
+
+* {
+    border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+}
+
+.login-modal-container {
+    max-width: 350px;
+    width: 100% !important;
+    background-color: #292B2C;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.login-modal-container .modal-body {
+    padding: 20px 10px;
+}
+
+.login-modal-container .modal-footer {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.login-modal-container h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.login-modal-container input {
+    font-size: 16px;
+    background-color: #FFFFFF
+}
+
+.login-modal-container input[type=submit] {
+    background-color: #0069ff;
+    border: 2px solid #0069ff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.login-modal-container input[type=submit]:hover {
+    background-color: #f80000;
+    border: 2px solid #f80000;
+}
+
+.error {
+    background-color: #292B2C;
+}
+
+.register-modal-container {
+    max-width: 350px;
+    width: 100% !important;
+    background-color: #292B2C;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.register-modal-container .modal-body {
+    padding: 20px 10px;
+}
+
+.register-modal-container .modal-footer {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.register-modal-container h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.register-modal-container input {
+    font-size: 16px;
+    background-color: #FFFFFF
+}
+
+.register-modal-container input[type=submit] {
+    background-color: #0069ff;
+    border: 2px solid #0069ff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.register-modal-container input[type=submit]:hover {
+    background-color: #f80000;
+    border: 2px solid #f80000;
+}
+
+.error {
+    background-color: #292B2C;
+}
+
+.modal-text {
+    color: #FFFFFF;
+}
+
+.carousel-indicators {
+    color: #000000;
+}
+
+.carousel-text {
+    color: #FFFFFF;
+}
+.card-text {
+    text-align: justify;
+}
+.nav-link {
+    color: #00ffff;
+}
+.nav-item {
+    color: #00ffff;
+}
+.card-image-top{
+    width: 100%;
+    height: 100%;
+}
+
+.container-fliud #wrapper {
+    background-color: darkorange;
+}
+.jumbotron{
+    background-color: darkgray;
+}
+.jumbotron-header{
+
+}
